@@ -1,0 +1,1 @@
+This repository contains a simple Rust program that demonstrates a potential issue with using raw pointers to manipulate vector data. The bug occurs when modifying the vector's contents through a raw pointer after the vector has been resized or reallocated.  The solution provides a safer alternative.
